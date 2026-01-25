@@ -33,7 +33,7 @@ function Home() {
               <h2>{item.title}</h2>
               <h4> INR {item.price}</h4>
               <h6>{item.description}</h6>
-              <button id="p-btn" onClick={() => handleButton(item)}>
+              <button className="p-btn" onClick={() => handleButton(item)}>
                 Add to Cart
               </button>
             </div>

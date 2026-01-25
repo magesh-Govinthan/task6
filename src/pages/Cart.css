@@ -63,8 +63,13 @@
      
 }
  @media only screen and (max-width: 475px){
+    *{
+        margin:0 auto;
+        padding:0;
+        box-sizing: border-box;
+    }
     .cart{
-    width:90%;
+    width:80%;
     display: flex;
     flex-direction: column;
       background-color: whitesmoke;
@@ -79,6 +84,7 @@
     background-color: whitesmoke;
     margin-top:10px;
     display:flex;
+    flex-direction: column;
     gap:20px;
     width:80%;
     align-items: center;
@@ -87,7 +93,7 @@
 .image img{
     margin:10px;
     height:100px;
-    width:100px;
+    width:150px;
    
 }
 .cart-child1{

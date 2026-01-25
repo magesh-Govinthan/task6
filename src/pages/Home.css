@@ -28,7 +28,7 @@
     align-content:start;
     line-height:30px;
 }
-#p-btn{
+.p-btn{
      background-color:#ffce12;
      border-radius:7px;
      padding:5px 15px;
@@ -37,7 +37,7 @@
 }
  @media only screen and (max-width: 475px){
     .product{
-    width:90%;
+    width:80%;
     display: flex;
     flex-direction: column;
       background-color: whitesmoke;
@@ -68,7 +68,7 @@
     align-content:start;
     line-height:20px;
 }
-#p-btn{
+.p-btn{
      background-color:#ffce12;
      border-radius:7px;
      padding:5px 10px;
