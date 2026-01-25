@@ -1,0 +1,128 @@
+    .cart{
+    margin-top:20px;
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    background-color: whitesmoke;
+   border:0.8px solid black;
+   border-radius:7px;
+   
+  }
+
+.cart-cointainer{
+      margin:0 auto;
+    background-color: whitesmoke;
+    margin-top:10px;
+    display:flex;
+    gap:20px;
+    width:500px;
+    align-items: center;
+   border-radius:7px;
+}
+.cart-child{
+ display:flex;
+ flex-direction: column;
+ gap:10px;
+
+ 
+}
+.cart-image img{
+    margin:10px;
+    height:150px;
+    width:150px;
+   
+}
+.cart-child1{
+ display:flex;
+ border:1px solid black;
+ border-radius:5px;
+}
+.cart-child1 button{
+    padding:2px 7px;
+    border:none;
+    background-color:transparent;
+    border-radius:3px;
+    font-size: medium;
+}
+.cart-child1 p{
+  padding:10px; 
+}
+.inner-p{
+    align-content:start;
+    line-height:30px;
+}
+.p-btn{
+     background-color:#ffce12;
+     border-radius:7px;
+     padding:5px 15px;
+     border:none;
+     font-size:15px;
+     margin-top:0px;
+     margin-left:50%;
+     margin-bottom:20px;
+     
+}
+ @media only screen and (max-width: 475px){
+    .cart{
+    width:90%;
+    display: flex;
+    flex-direction: column;
+      background-color: whitesmoke;
+   border:0.8px solid black;
+    margin-top:20px;
+    border-radius:7px;
+  
+  }
+
+.cart-cointainer{
+      margin:0 auto;
+    background-color: whitesmoke;
+    margin-top:10px;
+    display:flex;
+    gap:20px;
+    width:80%;
+    align-items: center;
+    border-radius:7px;
+}
+.image img{
+    margin:10px;
+    height:100px;
+    width:100px;
+   
+}
+.cart-child1{
+ display:flex;
+ border:1px solid black;
+ border-radius:5px;
+}
+.cart-child1 button{
+    padding:2px 5px;
+    border:none;
+    background-color:transparent;
+    border-radius:3px;
+    font-size: medium;
+}
+.cart-child1 p{
+  padding:10px; 
+}
+.inner-p{
+    align-content:start;
+    line-height:20px;
+}
+#p-btn{
+     background-color:#ffce12;
+     border-radius:7px;
+     padding:5px 10px;
+     border:none;
+     font-size:small;
+      margin-top:0px;
+     margin-left:50%;
+     margin-bottom:20px;
+}
+h2,h4{
+    font-size:small;
+}
+h3,h1{
+   font-size:small;  
+}
+ }
