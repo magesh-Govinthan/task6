@@ -52,7 +52,7 @@
     background-color: whitesmoke;
     margin-top:10px;
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     gap:20px;
     width:80%;
     align-items: center;
