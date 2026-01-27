@@ -179,6 +179,38 @@ h3,h1{
    border:0.8px solid lightgrey;
     border-radius:7px;
 }
+.amt-child{
+   display:flex;
+    width: 510px;
+    flex-direction:column;
+    align-items: center;
+    border:0.8px solid lightgrey; 
+    border-left:none;
+    border-right:none;
+}
+.amt-child1{
+  display:flex;
+   width:70%;
+   padding:10px;
+  flex-direction:row; 
+  background-color: aqua; 
+  
+}
+.amt-child2{
+  display:flex;
+   width:70%;
+  flex-direction:row;  
+ background-color: aqua;
+ font-size:small;
+}
+.amt-child3{
+  display:flex;
+   width: 70%;
+  flex-direction:row;  
+   align-items: center;
+   background-color: aqua;
+  margin:10px;
+}
 h2,h4{
     font-size:small;
 }
