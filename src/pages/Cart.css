@@ -191,7 +191,7 @@ h3,h1{
 .amt-child1{
   display:flex;
    width:70%;
-   
+   gap:10%;
   flex-direction:row; 
   background-color: aqua; 
   
@@ -204,9 +204,8 @@ h3,h1{
  font-size:small;
 }
 .amt-child3{
-
-  display:flex;
-   width: 60%;
+display:flex;
+   width: 80%;
   flex-direction:row;  
    align-items: center;
    background-color: aqua;
