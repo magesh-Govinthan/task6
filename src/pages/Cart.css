@@ -207,11 +207,10 @@ h3,h1{
 }
 .amt-child3{
 display:flex;
-   width:30%;
+   width:60%;
   flex-direction:row;  
    align-items: center;
-  
-  margin:10px auto;
+   margin:20px auto;
 }
 h2,h4{
     font-size:small;
