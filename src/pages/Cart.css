@@ -198,18 +198,19 @@ h3,h1{
 }
 .amt-child2{
   display:flex;
-   width:70%;
+   width:60%;
   flex-direction:row;  
  background-color: aqua;
  font-size:small;
 }
 .amt-child3{
+
   display:flex;
    width: 60%;
   flex-direction:row;  
    align-items: center;
    background-color: aqua;
-  margin:10px;
+  margin:10px auto;
 }
 h2,h4{
     font-size:small;
