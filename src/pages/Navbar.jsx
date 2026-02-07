@@ -11,7 +11,7 @@ import { CartContext } from '../Context/Cartcontext.jsx';
 function Navbar(props) {
  const navigate=useNavigate();  
 const {cartCount}=useContext(CartContext);
-     const handlePage=()=>{
+     const handlePage = () =>{
    navigate("cart")
    }
   return (
